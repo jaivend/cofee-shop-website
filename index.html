@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+    
+    <!-- cdn fontawesom  -->
+    <script src="https://kit.fontawesome.com/3477ae541c.js" crossorigin="anonymous"></script>
+
+    <title>coffee shop</title>
+
+  
+</head>
+
+    
+
+    <!-- headr  -->
+    <header>
+        <a href="#home" class="logo">
+            <img src="image/logo3.png" alt="">
+         
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#products">products</a>
+            <a href="#gallery">menu</a>
+            <a href="#review">reviews</a>
+            <a href="#contact">contact</a>
+            <a href="#blogs">blogs</a>
+
+        </nav>
+     <div class="shopping">
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="bars-btn"></div>
+            <!-- <span class="quantity">0</span> -->
+        </div>
+    </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+       
+
+            
+    </header>
+       <!-- home  -->
+
+       <section class="home" id="home">
+        <div class="home-content">
+        <!-- <img src="image/bg3.jpg" width="1693.8px" height="822px" alt=""> -->
+            <div class="home-i">
+                <div class="content">
+                    <h1 class="h_c">
+                        Hot Coffee Every Morning 
+                    </h1>
+                    <p><b>"Awaken Your Senses with Every Sip at [SIPSPOTT] <br> - Where Every Cup Tells a Story!</b>
+                    </p>
+                    <a href="#" id="btn" class="btn" onclick="triggerBtnClick()" >order now</a>
+                </div>
+                <div class="home-image">
+                    <img src="image/home2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home  -->
+    <!-- about -->
+    <section class="about" id="about">
+        <h1 class="heading">About <span>Us</span></h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="image/about.png" alt="">
+            </div>
+            <div class="content">
+                <h3>why choose us</h3>
+                <p>we're passionate about coffee. We source the finest beans, roast them to perfection, and craft each cup with care to ensure you experience coffee at its best.</p>
+                <a href="#" class="btn">read more...</a>
+            </div>
+        </div>
+    </section>
+    <!-- /about  -->
+    <!-- products  -->
+
+    <section class="products" id="products">
+        <h1 class="heading">our <span>products</span></h1>
+    <!-- ************************************************** -->
+
+    <div class="list">
+          
+    </div>
+</div>
+<div class="card">
+    <h1>Card</h1>
+    <ul class="listCard">
+    </ul>
+    <div class="checkOut">
+        <a href="form.html"> <div class="total" id="btn5" >0</div></a>
+        <div class="closeShopping">Close</div>
+    </div>
+</div>
+
+        <!-- <div class="list">
+          
+        </div>
+    </div>
+    <div class="card">
+        <h1>Cart</h1>
+        <ul class="listCard">
+        </ul>
+        <div class="checkOut">
+            <div class="total" id="btn5"> 
+              <a href="form.html"> click to order</a>
+            </div> -->
+        
+    
+    <!-- <div class="closeShopping">Close</div>
+    </div>
+    </div> -->
+
+
+
+
+
+
+
+    
+    <!-- ************************************************** -->
+    <!-- <section class="products" id="products">
+        <h1 class="heading">our <span>products</span></h1>
+
+        <div class="row">
+            <div class="colm">
+                <div class="image">
+                    <img src="image/p1.png" alt="image">
+                </div>
+                <div class="content">
+                    <h3>fresh coffee</h3>
+                    <div class="content-p">
+                        <span class="price">₹600.00</span>
+                        <span id="btnn" onclick="alertt()" class="btn-p">order now</span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="colm">
+                <div class="image">
+                    <img src="image/p2.png" alt="image">
+                </div>
+                <div class="content">
+                    <h3>fresh coffee</h3>
+                    <div class="content-p">
+                        <span class="price">₹700.00</span>
+                        <span id="btnn" onclick="alertt()" class="btn-p">order now</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="colm">
+                <div class="image">
+                    <img src="image/p3.png" alt="image">
+                </div>
+                <div class="content">
+                    <h3>fresh coffee</h3>
+                    <div class="content-p">
+                        <span class="price">₹450.00</span>
+                        <span class="btn-p" id="btnn" onclick="alertt()">order now</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="colm">
+                <div class="image">
+                    <img src="image/p4.png" alt="image">
+                </div>
+                <div class="content">
+                    <h3>fresh coffee</h3>
+                    <div class="content-p">
+                        <span class="price">₹400.00</span>
+                        <span class="btn-p" id="btnn" onclick="alertt()">order now</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="colm">
+                <div class="image">
+                    <img src="image/p5.png" alt="image">
+                </div>
+                <div class="content">
+                    <h3>fresh coffee</h3>
+                    <div class="content-p">
+                        <span class="price">₹500.00</span>
+                        <span class="btn-p"  id="btnn" onclick="alertt()">order now</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="colm">
+                <div class="image">
+                    <img src="image/p6.png" alt="image">
+                </div>
+                <div class="content">
+                    <h3>fresh coffee</h3>
+                    <div class="content-p">
+                        <span class="price">₹300.00</span>
+                        <span class="btn-p"  id="btnn" onclick="alertt()">order now</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+
+
+
+
+
+
+
+
+    <!-- /products  -->
+    <!-- .gallery  -->
+    <section class="gallery" id="gallery">
+        <h1 class="heading">our <span>menu</span></h1>
+        <div class="row">
+
+            <div class="box">
+                <img src="image/menu-1.jpg" alt="image">
+                <div class="content">
+                    <h3>
+                        Espresso Supreme
+                    </h3>
+                    <p>A rich and bold shot of pure coffee perfection.</p>
+                    <a href="#" id="a" class="btn">order now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/menu-2.jpg" alt="image">
+                <div class="content">
+                    <h3>
+                        Mocha Delight
+                    </h3>
+                    <p> Indulge in the harmonious blend of espresso and velvety chocolate.</p>
+                    <a href="#" class="btn" id="b">order now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/menu-3.jpg" alt="image">
+                <div class="content">
+                    <h3>
+                        Caramel Macchiato Bliss
+                    </h3>
+                    <p> Creamy caramel and espresso dance in a delightful swirl.</p>
+                    <a href="#" class="btn" id="c">order now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/menu-4.jpg" alt="image">
+                <div class="content">
+                    <h3>
+                        Hazelnut Hug in a Cup
+                    </h3>
+                    <p>Experience the warm embrace of hazelnut-infused coffee.</p>
+                    <a href="#" class="btn" id="d">order now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/menu-5.jpg" alt="image">
+                <div class="content">
+                    <h3>
+                        Vanilla Swirl Dream
+                    </h3>
+                    <p> A fragrant and smooth coffee with a touch of sweet vanilla.</p>
+                    <a href="#" class="btn" id="generateBUtton">order now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/menu-6.jpg" alt="image">
+                <div class="content">
+                    <h3>
+                        Dark Roast Elegance
+                    </h3>
+                    <p>The deep, robust flavors of a dark roast coffee exude pure elegance in every sip.</p>
+                    <a href="#" id="e" class="btn" >order now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /gallery  -->
+    <!-- review  -->
+    <section class="review" id="review">
+        <h1 class="heading">our <span>reviews</span></h1>
+        <div class="row">
+
+            <div class="box">
+                <img src="image/icon1.jpg" alt="image">
+                <h3>Ayush kumar</h3>
+                <p>"I stumbled upon this coffee gem and it's been a game-changer for my mornings. The coffee is consistently excellent, and the staff is so friendly. I love the cozy atmosphere; it's the perfect place to start my day."</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/icon2.jpg" alt="image">
+                <h3>Roshan kumar</h3>
+                <p>"I'm not usually a coffee person, but this place converted me. Their teas are amazing, and the coffee is excellent too. The staff is always happy to help me find something new to try."</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/icon3.jpg" alt="image">
+                <h3>Adiya vish</h3>
+                <p>"I'm a coffee snob, and this place passed the test! The baristas are true artists. I've never seen so much care put into a cup of coffee. Their lattes are like little works of art, and the taste is out of this world."</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- /review -->
+    <!-- contact  -->
+    <section class="contact" id="contact">
+        <h1 class="heading">contact</h1>
+
+        <div class="row">
+            <div class="ifarm">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13644.57454926767!2d75.70224535!3d31.244446799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1698694626548!5m2!1sen!2sin" width="500" height="420" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="form-c">
+                <form action="">
+                    <h3>contact us</h3>
+                    <input type="text" placeholder="enter your name .....">
+                    <input type="email" placeholder="enter your email .....">
+                    <input type="number" placeholder="enter your phone .....">
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" id="btn4" onclick="alert4()"  value="send message">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- /contact  -->
+    <!-- blogs  -->
+    <section class="blogs" id="blogs">
+        <h1 class="heading">our <span>blogs</span></h1>
+        <div class="row">
+            <div class="box">
+                <img src="image/menu-1.jpg" alt="image">
+                <h3>Dark Roast Elegance</h3>
+                <p>   Savor espresso and rich cocoa in a delightful fusion. A luxurious daily treat for chocolate lovers. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="btn"  id="btn" onclick="triggerBtnClick()">order now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/menu-5.jpg" alt="image">
+                <h3>Hazelnut Hug in a Cup</h3>
+                <p>Warm, nutty comfort in each sip. Cozy up with the essence of hazelnuts in your coffee.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="btn" id="btn" onclick="triggerBtnClick()">order now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/menu-3.jpg" alt="image">
+                <h3>Mocha Delight</h3>
+                <p> Savor espresso and rich cocoa in a delightful fusion. A luxurious daily treat for chocolate lovers. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="btn"  id="btn" onclick="triggerBtnClick()">order now</a>
+            </div>
+        </div>
+    </section>
+    <!-- /blogs  -->
+    <!-- footer  -->
+
+
+  
+    <footer class="footer">
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+        </ul>
+        <ul class="menu">
+          <li class="menu__item"><a class="menu__link" href="#home">Home</a></li>
+          <li class="menu__item"><a class="menu__link" href="#about">About</a></li>
+          <li class="menu__item"><a class="menu__link" href="#products">products</a></li>
+          <li class="menu__item"><a class="menu__link" href="#gallery">menu</a></li>
+          <li class="menu__item"><a class="menu__link" href="#review">reviews</a></li>
+          <li class="menu__item"><a class="menu__link" href="#contact">contact</a></li>
+          <li class="menu__item"><a class="menu__link" href="#blogs">blogs</a></li>
+
+   
+        </ul>
+        <p>&copy;2023 Sipspott | All Rights Reserved</p>
+      </footer>
+    
+
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+
+    
+  
+     
+    <script src="script.js"></script>
+</body>
+</html>
