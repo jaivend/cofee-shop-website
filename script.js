@@ -123,13 +123,13 @@ let products = [
     {
         id: 1,
         name: 'ARABICA COFFEE',
-        image: 'p1.PNG',
+        image: 'image/p1.PNG',
         price: 1200
     },
     {
         id: 2,
         name: 'BOTERO COFFEE',
-        image: 'p2.PNG',
+        image: 'image/p2.PNG',
         price: 1200
     },
     {
